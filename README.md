@@ -1,67 +1,24 @@
-https://www.youtube.com/watch?v=3zbtWSpsFV4&list=PLdz-gps4GThx5Ny6v9qhXIDzaMYydqXrQ&index=2
-53.00
-imagesler orada
-ilk hali
-![Ekran görüntüsü 2024-09-21 134542](https://github.com/user-attachments/assets/1998a6d2-b18e-45f0-8f53-0888111413c8)
+Full Response Grid Websites
+Home
+![home](https://github.com/user-attachments/assets/51bb2856-6f73-4edd-9586-82a7dea5da6d)
 
-son hali
-![Ekran görüntüsü 2024-10-01 232950](https://github.com/user-attachments/assets/599e6128-a233-4032-b34d-474dfc5d3bb9)
+Menu
+![menu](https://github.com/user-attachments/assets/add1bf20-d2dc-4860-8dfc-0f4710f66822)
 
-Ortadaki yazı ve butonları sola çekmek için CSS kodunda düzenlemeler yapmanız gerekiyor. Şu adımları takip edebilirsiniz:
+products
+![products](https://github.com/user-attachments/assets/975b0f10-d8c3-468b-8051-cfa3175277d3)
 
-Metin ve Butonlar için Konteyneri Sola Hizalayın: text-align ve justify-content gibi özellikler ile hizalamayı değiştirebilirsiniz.
-CSS kodunuzda aşağıdaki düzenlemeleri yapabilirsiniz:
+about us
+![About Us](https://github.com/user-attachments/assets/62ff8d8b-bdb9-40d4-9909-9c34c34e45ce)
 
-css
-Kodu kopyala
-.header-content {
-    position: absolute;
-    top: 50%;
-    left: 0; /* Sola hizalama */
-    transform: translateY(-50%);
-    text-align: left; /* Metinleri sola hizalar */
-    padding-left: 20px; /* İsteğe bağlı: Soldan boşluk bırakmak için */
-}
+review
+![review](https://github.com/user-attachments/assets/904b4249-2576-4312-98ce-c0a5ba00ca5e)
 
-.header-content h1 {
-    font-size: 48px;
-    color: white;
-}
+contact
+![contact](https://github.com/user-attachments/assets/277271e6-eb42-4a2b-8304-b4eb3fad8979)
 
-.header-content p {
-    font-size: 16px;
-    color: white;
-    max-width: 500px; /* Metin genişliğini sınırlamak için */
-}
+blog
+![blog](https://github.com/user-attachments/assets/23115f90-7e24-4ef3-8af5-c1f94dab8023)
 
-.header-content .buttons {
-    margin-top: 20px;
-}
-
-.header-content .buttons a {
-    display: inline-block;
-    background-color: #6c63ff;
-    color: white;
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-HTML Kodundaki Düzenleme: Eğer mevcut kodunuzda bir header-content sınıfı yoksa, aşağıdaki gibi yapıyı oluşturabilirsiniz:
-html
-Kodu kopyala
-<div class="header-content">
-    <h1>EN KALİTELİ WEB SİTELERİNİN TEK ADRESİ</h1>
-    <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit...</p>
-    <div class="buttons">
-        <a href="#">Bizi Arayın</a>
-        <a href="#">Bize Yazın</a>
-    </div>
-</div>
-Açıklamalar:
-position: absolute; ile içerikleri tam olarak istediğiniz yere yerleştirebilirsiniz.
-left: 0; ile içerikleri tamamen sol tarafa hizalıyoruz.
-padding-left ile sola biraz boşluk ekleyebilirsiniz (isteğe bağlı).
-text-align: left; ile metin ve butonları sola hizalıyoruz.
-Bu değişikliklerle birlikte yazı ve butonlar, tam olarak istediğiniz gibi sola çekilecektir.
-chatgpt cevabı budur
+footer
+![footer](https://github.com/user-attachments/assets/e7380b9f-53da-486b-afb6-6c0e7d30ab6a)
