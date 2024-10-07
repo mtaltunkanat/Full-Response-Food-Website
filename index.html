@@ -1,75 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>SwiftSite</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="icon" href="images/logo.png" />
-</head>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="images/logo2.png" />
+  </head>
 
-<body>
+  <body>
     <!--! header section start -->
     <header class="header">
-        <a href="#" class="logo">
-            <img src="images/logo.png" alt="logo">
-        </a>
-        <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Menu</a>
-            <a href="#">Products</a>
-            <a href="#">Review</a>
-            <a href="#">Contact</a>
-            <a href="#">Blog</a>
-        </nav>
+      <a href="#" class="logo">
+        <img src="images/logo2.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+      </nav>
 
-        <div class="buttons">
-            <button>
-                <i class="fas fa-search"></i>
-            </button>
-            <button>
-                <i class="fas fa-shopping-cart"></i>
-            </button>
-            <button>
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
+      <div class="buttons">
+        <button>
+          <i class="fas fa-search"></i>
+        </button>
+        <button>
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button>
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
     </header>
     <!--! header section end -->
 
     <!--! home section start -->
     <section class="home">
-        <div class="content">
-            <h3>EN KALİTELİ WEB SİTELERİNİN TEK ADRESİ</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti quam voluptatem vitae. Hic magni nesciunt amet quibusdam reiciendis asperiores tempora iure, exercitationem quisquam quos in ipsa sequi vitae deserunt repudiandae.</p>
-            <a href="#" class="btn">BİZİ ARAYIN <i class="fa-solid fa-phone"></i></a>
-            <a href="#" class="btn">BİZE YAZIN <i class="fa-regular fa-envelope"></i></a>
-        </div>
+      <div class="content">
+        <h3>EN KALİTELİ WEB SİTELERİNİN TEK ADRESİ</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+          quam voluptatem vitae. Hic magni nesciunt amet quibusdam reiciendis
+          asperiores .
+        </p>
+        <a href="#" class="btn"
+          >BİZİ ARAYIN <i class="fa-solid fa-phone"></i
+        ></a>
+        <a href="#" class="btn"
+          >BİZE YAZIN <i class="fa-regular fa-envelope"></i
+        ></a>
+      </div>
     </section>
     <!--! home section end -->
 
     <!--! menu section start -->
     <section class="menu">
-        <h1>our <span>menu</span></h1>
+      <h1 class="heading">our <span>menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-1.png" alt="menu" />
+            <span class="menu-category">PIZZA</span>
+            <h3>
+              6 Mini <br />
+              Pizzas
+            </h3>
+            <div class="price">$104.99 <span>119.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-2.png" alt="menu" />
+            <span class="menu-category">BURGER</span>
+            <h3>5 Cheaddar Burger</h3>
+            <div class="price">$99.99 <span>109.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-3.png" alt="menu" />
+            <span class="menu-category">PIZZA</span>
+            <h3>2 Mushroom Pizzas</h3>
+            <div class="price">$49.99 <span>59.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add To Cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-4.png" alt="menu" />
+            <span class="menu-category">BURGER</span>
+            <h3>
+              3 Triple <br />
+              Whooper
+            </h3>
+            <div class="price">$79.99 <span>99.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! menu section end -->
+
+    <!--! Products section start -->
+    <section class="products">
+        <h1 class="heading">our <span>products</span></h1>
         <div class="box-container">
             <div class="box">
                 <div class="box-head">
-                    <img src="images/web-tasarim_20102018230313.jpg" alt="menu">
+                    <span class="title">MINI BURGER</span>
+                    <a href="#" class="name">Beef Burger</a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
                 </div>
                 <div class="box-bottom">
-                    <!-- İçerik eklenebilir -->
+                    <div class="info">
+                        <b class="price">$6.00</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">MINI BURGER</span>
+                    <a href="#" class="name">Beef Burger</a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$6.00</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dark-bg">
+                <div class="box-head">
+                    <span class="title">MINI BURGER</span>
+                    <a href="#" class="name">Beef Burger</a>
+                </div>
+                <div class="image">
+                    <img src="images/dark-product.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$6.00</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--! menu section end -->
 
-    <footer>
-        <button value="kayıt">Kayıt</button>
-    </footer>
-</body>
+    <!--! Products section End -->
 
+    <!--! About section Start -->
+    <section class="about">
+    <h1 class="heading">about <span>us</span></h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/about.jpg" alt="about">
+            </div>
+            <div class="content">
+                <h3>What Is The Secret Recipe Of Our Burgers?</h3>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam Voluptatem Facere Amet Temporibus Culpa Sit Illo Earum Cupiditate Soluta Perferendis!</p>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam Voluptatem Facere Amet Temporibus Culpa Sit Illo Earum Cupiditate Soluta Perferendis!</p>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam Voluptatem Facere Amet Temporibus Culpa Sit Illo Earum Cupiditate Soluta Perferendis!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+    </div>
+    </section>
+    <!--! About section End -->
+
+    <!--! Review section Start -->
+    <section class="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img  src="images/quote.png" alt="quote">
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem Nulla 
+                    Repellendus Similique Porro Explicabo, Blanditiis Voluptatibus Obcaecati Harum
+                     Est, Eos Quo Modi Alias. Possimus Odio Quam Ex Earum Ducimus! Officia.
+                    </p>
+                    <img class="im2" src="images/avatar-1.png" alt="avatar" class="user">
+                    <h3>Jennifer Becker</h3>
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+                    </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem Nulla 
+                    Repellendus Similique Porro Explicabo, Blanditiis Voluptatibus Obcaecati Harum
+                     Est, Eos Quo Modi Alias. Possimus Odio Quam Ex Earum Ducimus! Officia.
+                    </p>
+                    <img class="im2" src="images/avatar-2.png" alt="avatar" class="user">
+                    <h3>John Doe</h3>
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+                    </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem Nulla 
+                    Repellendus Similique Porro Explicabo, Blanditiis Voluptatibus Obcaecati Harum
+                     Est, Eos Quo Modi Alias. Possimus Odio Quam Ex Earum Ducimus! Officia.
+                    </p>
+                    <img class="im2" src="images/avatar-3.png" alt="avatar" class="user">
+                    <h3>Lisa Arambula</h3>
+                    <div class="starts">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-regular fa-star-half-stroke"></i>
+                    </div>
+            </div>
+    </div>
+    </section>
+    <!--! Review section End -->
+
+        <!--! Contact Us Start -->
+        <section class="contact">
+            <h1 class="heading">contact <span>us</span></h1>
+            <div class="row">
+            <iframe
+            class="map"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20245.35070158353!2d28.973175901561234!3d41.0364258433886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zVGFrc2ltIE1leWRhbsSxLCBHw7xtw7zFn3N1eXUsIDM0NDM1IEJleW_En2x1L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1673695864513!5m2!1str!2str"
+               loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+        ></iframe>
+        <form>
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="name">
+            </div>
+
+            <div class="inputBox">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputBox">
+            <i class="fa-solid fa-phone"></i>
+            <input type="number" placeholder="phone number">
+            </div>
+
+            <input type="submit" class="btn" value="Contact Now">
+             </form> 
+              </div> 
+        </section>
+        <!--! Contact Us End -->
+         <!--! Blogs Start-->
+         <section>
+            <h1 class="heading">our <span>blog</span></h1>
+         </section>
+          <!--!  Blogs End -->
+  </body>
 </html>
